@@ -14,6 +14,7 @@
 
 @protocol SongSvc <NSObject>
 
+- (Song *) createManagedSong;
 
 - (Song *) createSong: (Song *) song;
 
